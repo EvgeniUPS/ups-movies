@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export class Search extends Component {
   state = {
     search: '',
+    type: 'all',
   }
 
   handleKey = e => {
@@ -10,9 +11,15 @@ export class Search extends Component {
       this.props.searchMovies(this.state.search)
     }
   }
+
+  handleFilter = e => {
+    this.setState({ type: e.target.dataset.type })
+  }
+
   componentDidMount() {
     console.log('mouunt search')
   }
+
   render() {
     return (
       <div className='row'>
@@ -33,6 +40,42 @@ export class Search extends Component {
             >
               <i class='material-icons right'>search</i>search
             </a>
+
+            <div class='filter'>
+              <label>
+                <input
+                  class='with-gap'
+                  name='type'
+                  type='radio'
+                  data-type='all'
+                  onChange={this.handleFilter}
+                  checked={this.state.type === ''}
+                />
+                <span>All</span>
+              </label>
+              <label>
+                <input
+                  class='with-gap'
+                  name='type'
+                  type='radio'
+                  data-type='movie'
+                  onChange={this.handleFilter}
+                  checked={this.state.type === 'movie'}
+                />
+                <span>Movies only</span>
+              </label>
+              <label>
+                <input
+                  class='with-gap'
+                  name='type'
+                  type='radio'
+                  data-type='series'
+                  onChange={this.handleFilter}
+                  checked={this.state.type === 'series'}
+                />
+                <span>Series only</span>
+              </label>
+            </div>
           </div>
         </div>
       </div>

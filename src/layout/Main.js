@@ -16,20 +16,21 @@ class Main extends React.Component {
       // { imdbID: '2', Title: 'test2', Year: '2014', Type: 'movie' },
       // { imdbID: '3', Title: 'test3', Year: '2015', Type: 'movie' },
     ],
+    loading: true,
   }
 
   componentDidMount() {
     console.log('componentDidMount')
 
-    fetch('http://www.omdbapi.com/?apikey=1f1ef129&s=frozen')
+    fetch('https://www.omdbapi.com/?apikey=1f1ef129&s=matrix')
       .then(res => res.json())
-      .then(data => this.setState({ movies: data.Search }))
+      .then(data => this.setState({ movies: data.Search, loading: false }))
   }
 
   searchMovies = str => {
-    fetch(`http://www.omdbapi.com/?apikey=1f1ef129&s=${str}`)
+    fetch(`https://www.omdbapi.com/?apikey=1f1ef129&s=${str}`)
       .then(res => res.json())
-      .then(data => this.setState({ movies: data.Search }))
+      .then(data => this.setState({ movies: data.Search, loading: false }))
   }
 
   render() {
