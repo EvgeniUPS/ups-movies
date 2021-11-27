@@ -10,6 +10,9 @@ export class Search extends Component {
       this.props.searchMovies(this.state.search)
     }
   }
+  componentDidMount() {
+    console.log('mouunt search')
+  }
   render() {
     return (
       <div className='row'>
