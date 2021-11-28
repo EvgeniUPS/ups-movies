@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ups-movies/static/css/main.c0000828.chunk.css",
-    "main.js": "/ups-movies/static/js/main.e250b095.chunk.js",
-    "main.js.map": "/ups-movies/static/js/main.e250b095.chunk.js.map",
+    "main.css": "/ups-movies/static/css/main.a76de33d.chunk.css",
+    "main.js": "/ups-movies/static/js/main.c719a463.chunk.js",
+    "main.js.map": "/ups-movies/static/js/main.c719a463.chunk.js.map",
     "runtime-main.js": "/ups-movies/static/js/runtime-main.d10cf654.js",
     "runtime-main.js.map": "/ups-movies/static/js/runtime-main.d10cf654.js.map",
-    "static/js/2.f8efa8d7.chunk.js": "/ups-movies/static/js/2.f8efa8d7.chunk.js",
-    "static/js/2.f8efa8d7.chunk.js.map": "/ups-movies/static/js/2.f8efa8d7.chunk.js.map",
+    "static/js/2.e9678ef3.chunk.js": "/ups-movies/static/js/2.e9678ef3.chunk.js",
+    "static/js/2.e9678ef3.chunk.js.map": "/ups-movies/static/js/2.e9678ef3.chunk.js.map",
     "index.html": "/ups-movies/index.html",
-    "static/css/main.c0000828.chunk.css.map": "/ups-movies/static/css/main.c0000828.chunk.css.map",
-    "static/js/2.f8efa8d7.chunk.js.LICENSE.txt": "/ups-movies/static/js/2.f8efa8d7.chunk.js.LICENSE.txt"
+    "static/css/main.a76de33d.chunk.css.map": "/ups-movies/static/css/main.a76de33d.chunk.css.map",
+    "static/js/2.e9678ef3.chunk.js.LICENSE.txt": "/ups-movies/static/js/2.e9678ef3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d10cf654.js",
-    "static/js/2.f8efa8d7.chunk.js",
-    "static/css/main.c0000828.chunk.css",
-    "static/js/main.e250b095.chunk.js"
+    "static/js/2.e9678ef3.chunk.js",
+    "static/css/main.a76de33d.chunk.css",
+    "static/js/main.c719a463.chunk.js"
   ]
 }
