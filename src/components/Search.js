@@ -27,13 +27,12 @@ const Search = props => {
             onChange={e => setSearch(e.target.value)}
             onKeyDown={handleKey}
           />
-          <a
+          <button
             onClick={() => searchMovies(search)}
-            href='#!'
             className='waves-effect waves-light btn search-btn'
           >
             <i className='material-icons right'>search</i>search
-          </a>
+          </button>
 
           <div className='filter'>
             <label>
