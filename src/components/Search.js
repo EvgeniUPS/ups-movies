@@ -38,13 +38,13 @@ export class Search extends Component {
               href='#!'
               className='waves-effect waves-light btn search-btn'
             >
-              <i class='material-icons right'>search</i>search
+              <i className='material-icons right'>search</i>search
             </a>
 
-            <div class='filter'>
+            <div className='filter'>
               <label>
                 <input
-                  class='with-gap'
+                  className='with-gap'
                   name='type'
                   type='radio'
                   data-type='all'
@@ -55,7 +55,7 @@ export class Search extends Component {
               </label>
               <label>
                 <input
-                  class='with-gap'
+                  className='with-gap'
                   name='type'
                   type='radio'
                   data-type='movie'
@@ -66,7 +66,7 @@ export class Search extends Component {
               </label>
               <label>
                 <input
-                  class='with-gap'
+                  className='with-gap'
                   name='type'
                   type='radio'
                   data-type='series'
